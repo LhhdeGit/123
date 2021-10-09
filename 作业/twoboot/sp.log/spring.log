@@ -1,0 +1,257 @@
+2021-10-09 08:13:56.101  INFO 10168 --- [restartedMain] com.xiexin.WangweiApplication            : Starting WangweiApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 10168 (E:\ideaIU-2018.3.6.win\springboot\twoboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\twoboot)
+2021-10-09 08:13:56.108  INFO 10168 --- [restartedMain] com.xiexin.WangweiApplication            : No active profile set, falling back to default profiles: default
+2021-10-09 08:13:56.241  INFO 10168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-09 08:13:57.864  INFO 10168 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-09 08:13:57.867  INFO 10168 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-09 08:13:57.929  INFO 10168 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-10-09 08:13:58.610  INFO 10168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-09 08:13:58.618  INFO 10168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-09 08:13:58.618  INFO 10168 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-09 08:13:58.714  INFO 10168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-09 08:13:58.715  INFO 10168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2472 ms
+2021-10-09 08:13:58.735 DEBUG 10168 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-09 08:13:58.735 DEBUG 10168 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-09 08:13:58.829  INFO 10168 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-09 08:13:59.107  INFO 10168 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-10-09 08:13:59.888 DEBUG 10168 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-09 08:13:59.945 DEBUG 10168 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2021-10-09 08:13:59.969 DEBUG 10168 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-09 08:13:59.993 DEBUG 10168 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-09 08:14:00.612  INFO 10168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-09 08:14:00.639  INFO 10168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-09 08:14:00.655  INFO 10168 --- [restartedMain] com.xiexin.WangweiApplication            : Started WangweiApplication in 5.36 seconds (JVM running for 7.721)
+2021-10-09 08:14:58.521  INFO 10168 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-09 08:14:58.521  INFO 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-09 08:14:58.521 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-09 08:14:58.522 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-09 08:14:58.522 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-09 08:14:58.523 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1ed03ed1
+2021-10-09 08:14:58.523 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@61a5d42b
+2021-10-09 08:14:58.523 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-09 08:14:58.523  INFO 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-10-09 08:14:58.534 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/page/syslog", parameters={}
+2021-10-09 08:14:58.537 DEBUG 10168 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#syslog()
+2021-10-09 08:14:58.574 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-10-09 08:14:58.822 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:14:58.847 DEBUG 10168 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.css", parameters={}
+2021-10-09 08:14:58.851 DEBUG 10168 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/vue.js", parameters={}
+2021-10-09 08:14:58.853 DEBUG 10168 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:14:58.854 DEBUG 10168 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:14:58.857 DEBUG 10168 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.js", parameters={}
+2021-10-09 08:14:58.858 DEBUG 10168 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:14:58.858 DEBUG 10168 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/axios.min.js", parameters={}
+2021-10-09 08:14:58.859 DEBUG 10168 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:14:58.920 DEBUG 10168 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:14:58.950 DEBUG 10168 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:14:58.951 DEBUG 10168 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:14:58.953 DEBUG 10168 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:14:59.159 DEBUG 10168 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/syslog/selectAll", parameters={}
+2021-10-09 08:14:59.159 DEBUG 10168 --- [http-nio-9090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.SyslogController#selectAll()
+2021-10-09 08:14:59.255 DEBUG 10168 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2021-10-09 08:14:59.258 DEBUG 10168 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:14:59.265 DEBUG 10168 --- [http-nio-9090-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-10-09 08:14:59.266 DEBUG 10168 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-10-09 08:14:59.272 DEBUG 10168 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-10-09 08:14:59.274 DEBUG 10168 --- [http-nio-9090-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-10-09 08:14:59.311 DEBUG 10168 --- [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-09 08:14:59.312 DEBUG 10168 --- [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Oct 09 08:14:59 CST 2021, status=404, error=Not Found, message=No message available,  (truncated)...]
+2021-10-09 08:14:59.441 DEBUG 10168 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-10-09 08:14:59.715 DEBUG 10168 --- [http-nio-9090-exec-6] c.xiexin.dao.SysLogDAO.selectByExample   : ==>  Preparing: select user_session, event_type, category_id, user_id, product_id, address_name, event_time from sys_log
+2021-10-09 08:14:59.763 DEBUG 10168 --- [http-nio-9090-exec-6] c.xiexin.dao.SysLogDAO.selectByExample   : ==> Parameters: 
+2021-10-09 08:14:59.876 DEBUG 10168 --- [http-nio-9090-exec-6] c.xiexin.dao.SysLogDAO.selectByExample   : <==      Total: 3000
+2021-10-09 08:14:59.902 DEBUG 10168 --- [http-nio-9090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-09 08:14:59.904 DEBUG 10168 --- [http-nio-9090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=20000, msg=操作成功, data=[com.xiexin.bean.SysLog@1d39d786, com.xiexin.bean.SysLog@19852a90, (truncated)...]
+2021-10-09 08:14:59.929 DEBUG 10168 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:15:17.338 DEBUG 10168 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/page/sessionlog", parameters={}
+2021-10-09 08:15:17.339 DEBUG 10168 --- [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#sessionlog()
+2021-10-09 08:15:17.340 DEBUG 10168 --- [http-nio-9090-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-10-09 08:15:17.438 DEBUG 10168 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:15:17.667 DEBUG 10168 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.css", parameters={}
+2021-10-09 08:15:17.668 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.js", parameters={}
+2021-10-09 08:15:17.668 DEBUG 10168 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/vue.js", parameters={}
+2021-10-09 08:15:17.668 DEBUG 10168 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/axios.min.js", parameters={}
+2021-10-09 08:15:17.668 DEBUG 10168 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:15:17.668 DEBUG 10168 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:15:17.668 DEBUG 10168 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:15:17.668 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:15:17.672 DEBUG 10168 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:15:17.675 DEBUG 10168 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:15:17.675 DEBUG 10168 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:15:17.677 DEBUG 10168 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:15:17.752 DEBUG 10168 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/session/selectAll", parameters={}
+2021-10-09 08:15:17.752 DEBUG 10168 --- [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.SessionlogController#selectAll()
+2021-10-09 08:15:17.753 DEBUG 10168 --- [http-nio-9090-exec-2] c.x.dao.SessionLogDAO.selectByExample    : ==>  Preparing: select action_time, userid, pageid, sessionid from session_log
+2021-10-09 08:15:17.753 DEBUG 10168 --- [http-nio-9090-exec-2] c.x.dao.SessionLogDAO.selectByExample    : ==> Parameters: 
+2021-10-09 08:15:17.772 DEBUG 10168 --- [http-nio-9090-exec-2] c.x.dao.SessionLogDAO.selectByExample    : <==      Total: 1000
+2021-10-09 08:15:17.773 DEBUG 10168 --- [http-nio-9090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-09 08:15:17.774 DEBUG 10168 --- [http-nio-9090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=20000, msg=操作成功, data=[com.xiexin.bean.SessionLog@58a67d3d, com.xiexin.bean.SessionLog@7 (truncated)...]
+2021-10-09 08:15:17.782 DEBUG 10168 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:18:30.883  INFO 15980 --- [restartedMain] com.xiexin.WangweiApplication            : Starting WangweiApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 15980 (E:\ideaIU-2018.3.6.win\springboot\twoboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\twoboot)
+2021-10-09 08:18:30.886  INFO 15980 --- [restartedMain] com.xiexin.WangweiApplication            : No active profile set, falling back to default profiles: default
+2021-10-09 08:18:30.949  INFO 15980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-09 08:18:31.575  INFO 15980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-09 08:18:31.577  INFO 15980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-09 08:18:31.602  INFO 15980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-10-09 08:18:32.087  INFO 15980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-09 08:18:32.094  INFO 15980 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-09 08:18:32.094  INFO 15980 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-09 08:18:32.172  INFO 15980 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-09 08:18:32.172  INFO 15980 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1222 ms
+2021-10-09 08:18:32.186 DEBUG 15980 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-09 08:18:32.187 DEBUG 15980 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-09 08:18:32.239  INFO 15980 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-09 08:18:32.374  INFO 15980 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-10-09 08:18:32.807 DEBUG 15980 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-09 08:18:32.882 DEBUG 15980 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2021-10-09 08:18:32.915 DEBUG 15980 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-09 08:18:32.926 DEBUG 15980 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-09 08:18:33.291  INFO 15980 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-09 08:18:33.316  INFO 15980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-09 08:18:33.327  INFO 15980 --- [restartedMain] com.xiexin.WangweiApplication            : Started WangweiApplication in 2.851 seconds (JVM running for 4.253)
+2021-10-09 08:18:58.310  INFO 15980 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-09 08:18:58.311  INFO 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-09 08:18:58.311 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-09 08:18:58.311 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-09 08:18:58.311 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-09 08:18:58.312 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@24e43c50
+2021-10-09 08:18:58.313 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2564e4b8
+2021-10-09 08:18:58.314 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-09 08:18:58.314  INFO 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-10-09 08:18:58.325 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/page/sessionlog", parameters={}
+2021-10-09 08:18:58.328 DEBUG 15980 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#sessionlog()
+2021-10-09 08:18:58.342 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-10-09 08:18:58.559 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:18:58.608 DEBUG 15980 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.css", parameters={}
+2021-10-09 08:18:58.612 DEBUG 15980 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/vue.js", parameters={}
+2021-10-09 08:18:58.613 DEBUG 15980 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/axios.min.js", parameters={}
+2021-10-09 08:18:58.613 DEBUG 15980 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.js", parameters={}
+2021-10-09 08:18:58.616 DEBUG 15980 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:18:58.617 DEBUG 15980 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:18:58.616 DEBUG 15980 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:18:58.616 DEBUG 15980 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:18:58.646 DEBUG 15980 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:18:58.650 DEBUG 15980 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:18:58.653 DEBUG 15980 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:18:58.655 DEBUG 15980 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:18:58.878 DEBUG 15980 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/session/selectAll", parameters={}
+2021-10-09 08:18:58.878 DEBUG 15980 --- [http-nio-9090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.SessionlogController#selectAll()
+2021-10-09 08:18:58.966 DEBUG 15980 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2021-10-09 08:18:58.967 DEBUG 15980 --- [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:18:58.970 DEBUG 15980 --- [http-nio-9090-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-10-09 08:18:58.970 DEBUG 15980 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-10-09 08:18:58.976 DEBUG 15980 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-10-09 08:18:58.977 DEBUG 15980 --- [http-nio-9090-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-10-09 08:18:58.995 DEBUG 15980 --- [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-09 08:18:58.996 DEBUG 15980 --- [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Oct 09 08:18:58 CST 2021, status=404, error=Not Found, message=No message available,  (truncated)...]
+2021-10-09 08:18:59.036 DEBUG 15980 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-10-09 08:18:59.052 DEBUG 15980 --- [http-nio-9090-exec-6] c.x.dao.SessionLogDAO.selectByExample    : ==>  Preparing: select action_time, userid, pageid, sessionid from session_log
+2021-10-09 08:18:59.072 DEBUG 15980 --- [http-nio-9090-exec-6] c.x.dao.SessionLogDAO.selectByExample    : ==> Parameters: 
+2021-10-09 08:18:59.175 DEBUG 15980 --- [http-nio-9090-exec-6] c.x.dao.SessionLogDAO.selectByExample    : <==      Total: 1000
+2021-10-09 08:18:59.191 DEBUG 15980 --- [http-nio-9090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-09 08:18:59.192 DEBUG 15980 --- [http-nio-9090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=20000, msg=操作成功, data=[com.xiexin.bean.SessionLog@7b19cf38, com.xiexin.bean.SessionLog@7 (truncated)...]
+2021-10-09 08:18:59.206 DEBUG 15980 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:41.682  INFO 15980 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-10-09 08:19:41.688  INFO 15980 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-10-09 08:19:41.878  INFO 15980 --- [restartedMain] com.xiexin.WangweiApplication            : Starting WangweiApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 15980 (E:\ideaIU-2018.3.6.win\springboot\twoboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\twoboot)
+2021-10-09 08:19:41.879  INFO 15980 --- [restartedMain] com.xiexin.WangweiApplication            : No active profile set, falling back to default profiles: default
+2021-10-09 08:19:42.123  INFO 15980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-09 08:19:42.124  INFO 15980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-09 08:19:42.129  INFO 15980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-10-09 08:19:42.222  INFO 15980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-09 08:19:42.223  INFO 15980 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-09 08:19:42.223  INFO 15980 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-09 08:19:42.244  INFO 15980 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-09 08:19:42.245  INFO 15980 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 363 ms
+2021-10-09 08:19:42.250 DEBUG 15980 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-09 08:19:42.250 DEBUG 15980 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-09 08:19:42.259  INFO 15980 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-09 08:19:42.280  INFO 15980 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2021-10-09 08:19:42.371 DEBUG 15980 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-09 08:19:42.378 DEBUG 15980 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2021-10-09 08:19:42.390 DEBUG 15980 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-09 08:19:42.395 DEBUG 15980 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-09 08:19:42.460  INFO 15980 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-09 08:19:42.473  INFO 15980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-09 08:19:42.477  INFO 15980 --- [restartedMain] com.xiexin.WangweiApplication            : Started WangweiApplication in 0.641 seconds (JVM running for 73.403)
+2021-10-09 08:19:42.479  INFO 15980 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-09 08:19:42.673  INFO 15980 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-09 08:19:42.674  INFO 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-09 08:19:42.674 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-09 08:19:42.675 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-09 08:19:42.675 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-09 08:19:42.675 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5668dd83
+2021-10-09 08:19:42.676 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@58af393e
+2021-10-09 08:19:42.676 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-09 08:19:42.676  INFO 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-10-09 08:19:42.676 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/page/sessionlog", parameters={}
+2021-10-09 08:19:42.677 DEBUG 15980 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#sessionlog()
+2021-10-09 08:19:42.681 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-10-09 08:19:42.693 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:42.720 DEBUG 15980 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.css", parameters={}
+2021-10-09 08:19:42.721 DEBUG 15980 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:19:42.725 DEBUG 15980 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/vue.js", parameters={}
+2021-10-09 08:19:42.725 DEBUG 15980 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.js", parameters={}
+2021-10-09 08:19:42.726 DEBUG 15980 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:19:42.726 DEBUG 15980 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:19:42.727 DEBUG 15980 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:42.732 DEBUG 15980 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:42.732 DEBUG 15980 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/axios.min.js", parameters={}
+2021-10-09 08:19:42.732 DEBUG 15980 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:19:42.736 DEBUG 15980 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:42.736 DEBUG 15980 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:42.937 DEBUG 15980 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/session/selectAll", parameters={}
+2021-10-09 08:19:42.938 DEBUG 15980 --- [http-nio-9090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.SessionlogController#selectAll()
+2021-10-09 08:19:42.950 DEBUG 15980 --- [http-nio-9090-exec-6] c.x.dao.SessionLogDAO.selectByExample    : ==>  Preparing: select action_time, userid, pageid, sessionid from session_log
+2021-10-09 08:19:42.950 DEBUG 15980 --- [http-nio-9090-exec-6] c.x.dao.SessionLogDAO.selectByExample    : ==> Parameters: 
+2021-10-09 08:19:42.973 DEBUG 15980 --- [http-nio-9090-exec-6] c.x.dao.SessionLogDAO.selectByExample    : <==      Total: 1000
+2021-10-09 08:19:42.976 DEBUG 15980 --- [http-nio-9090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-09 08:19:42.977 DEBUG 15980 --- [http-nio-9090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=20000, msg=操作成功, data=[com.xiexin.bean.SessionLog@188eb0ff, com.xiexin.bean.SessionLog@3 (truncated)...]
+2021-10-09 08:19:42.991 DEBUG 15980 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:46.046 DEBUG 15980 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/page/sessionlog", parameters={}
+2021-10-09 08:19:46.046 DEBUG 15980 --- [http-nio-9090-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#sessionlog()
+2021-10-09 08:19:46.047 DEBUG 15980 --- [http-nio-9090-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-10-09 08:19:46.049 DEBUG 15980 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:46.075 DEBUG 15980 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.css", parameters={}
+2021-10-09 08:19:46.076 DEBUG 15980 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/vue.js", parameters={}
+2021-10-09 08:19:46.076 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/axios.min.js", parameters={}
+2021-10-09 08:19:46.076 DEBUG 15980 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.js", parameters={}
+2021-10-09 08:19:46.076 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:19:46.077 DEBUG 15980 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:19:46.077 DEBUG 15980 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:19:46.076 DEBUG 15980 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-09 08:19:46.081 DEBUG 15980 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:46.085 DEBUG 15980 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:46.088 DEBUG 15980 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:46.090 DEBUG 15980 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:19:46.161 DEBUG 15980 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/session/selectAll", parameters={}
+2021-10-09 08:19:46.162 DEBUG 15980 --- [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.SessionlogController#selectAll()
+2021-10-09 08:19:46.162 DEBUG 15980 --- [http-nio-9090-exec-2] c.x.dao.SessionLogDAO.selectByExample    : ==>  Preparing: select action_time, userid, pageid, sessionid from session_log
+2021-10-09 08:19:46.162 DEBUG 15980 --- [http-nio-9090-exec-2] c.x.dao.SessionLogDAO.selectByExample    : ==> Parameters: 
+2021-10-09 08:19:46.174 DEBUG 15980 --- [http-nio-9090-exec-2] c.x.dao.SessionLogDAO.selectByExample    : <==      Total: 1000
+2021-10-09 08:19:46.175 DEBUG 15980 --- [http-nio-9090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-09 08:19:46.176 DEBUG 15980 --- [http-nio-9090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=20000, msg=操作成功, data=[com.xiexin.bean.SessionLog@566f834b, com.xiexin.bean.SessionLog@1 (truncated)...]
+2021-10-09 08:19:46.180 DEBUG 15980 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-09 08:20:02.156  INFO 15980 --- [Thread-17] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closing ...
+2021-10-09 08:20:02.156  INFO 15980 --- [Thread-17] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-10-09 08:20:02.312  INFO 15980 --- [restartedMain] com.xiexin.WangweiApplication            : Starting WangweiApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 15980 (E:\ideaIU-2018.3.6.win\springboot\twoboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\twoboot)
+2021-10-09 08:20:02.313  INFO 15980 --- [restartedMain] com.xiexin.WangweiApplication            : No active profile set, falling back to default profiles: default
+2021-10-09 08:20:02.568  INFO 15980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-09 08:20:02.569  INFO 15980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-09 08:20:02.576  INFO 15980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2021-10-09 08:20:02.642  INFO 15980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-09 08:20:02.643  INFO 15980 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-09 08:20:02.643  INFO 15980 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-09 08:20:02.664  INFO 15980 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-09 08:20:02.664  INFO 15980 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 349 ms
+2021-10-09 08:20:02.669 DEBUG 15980 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-09 08:20:02.669 DEBUG 15980 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-09 08:20:02.679  INFO 15980 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-09 08:20:02.704  INFO 15980 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2021-10-09 08:20:02.776 DEBUG 15980 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-09 08:20:02.783 DEBUG 15980 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2021-10-09 08:20:02.799 DEBUG 15980 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-09 08:20:02.804 DEBUG 15980 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-09 08:20:02.858  INFO 15980 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-09 08:20:02.875  INFO 15980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-09 08:20:02.880  INFO 15980 --- [restartedMain] com.xiexin.WangweiApplication            : Started WangweiApplication in 0.605 seconds (JVM running for 93.806)
+2021-10-09 08:20:02.882  INFO 15980 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

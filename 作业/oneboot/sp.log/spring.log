@@ -1,0 +1,1056 @@
+2021-10-08 11:04:20.001  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:04:20.005  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:04:20.060  INFO 16632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-08 11:04:21.171  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:04:21.173  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:04:21.254  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:04:21.471  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:04:22.081  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:04:22.093  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:04:22.093  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:04:22.230  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:04:22.231  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2168 ms
+2021-10-08 11:04:22.248 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:04:22.248 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:04:22.518 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:04:22.593 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:04:22.630 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:04:22.656 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:04:22.705  WARN 16632 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-08 11:04:22.750  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:04:23.142  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-10-08 11:04:24.188  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:04:24.218  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:04:24.231  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 5.384 seconds (JVM running for 7.957)
+2021-10-08 11:10:09.722  INFO 16632 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-08 11:10:09.722  INFO 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-08 11:10:09.723 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-08 11:10:09.723 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-08 11:10:09.723 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-08 11:10:09.724 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@297074fc
+2021-10-08 11:10:09.725 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@56c1a7a6
+2021-10-08 11:10:09.725 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-08 11:10:09.725  INFO 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-10-08 11:10:09.800 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-08 11:10:09.887 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 11:10:09.888 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-10-08 11:10:09.889 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-10-08 11:10:09.963 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-10-08 11:10:09.967 DEBUG 16632 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-10-08 11:10:10.266 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-10-08 11:10:10.272 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-10-08 11:10:10.997 DEBUG 16632 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2021-10-08 11:10:11.000 DEBUG 16632 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 11:10:11.005 DEBUG 16632 --- [http-nio-9090-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-10-08 11:10:11.005 DEBUG 16632 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-10-08 11:10:11.006 DEBUG 16632 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-10-08 11:10:11.007 DEBUG 16632 --- [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-10-08 11:10:11.557 DEBUG 16632 --- [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-08 11:10:11.558 DEBUG 16632 --- [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Oct 08 11:10:11 CST 2021, status=404, error=Not Found, message=No message available,  (truncated)...]
+2021-10-08 11:10:12.053 DEBUG 16632 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-10-08 11:11:54.519  INFO 16632 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-10-08 11:11:54.552  INFO 16632 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-10-08 11:11:54.733  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:11:54.734  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:11:54.920  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:11:54.921  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:11:54.923  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:11:54.977  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:11:55.204  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:11:55.205  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:11:55.205  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:11:55.255  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:11:55.255  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 518 ms
+2021-10-08 11:11:55.262 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:11:55.262 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:11:55.313 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:11:55.318 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:11:55.328 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:11:55.332 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:11:55.337  WARN 16632 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-08 11:11:55.340  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:11:55.364  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2021-10-08 11:11:55.424  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:11:55.432  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:11:55.438  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.756 seconds (JVM running for 459.163)
+2021-10-08 11:11:55.440  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:14:06.343  INFO 16632 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closing ...
+2021-10-08 11:14:06.344  INFO 16632 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-10-08 11:14:06.567  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:14:06.567  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:14:06.962  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:14:06.962  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:14:06.964  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:14:07.018  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:14:07.167  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:14:07.168  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:14:07.168  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:14:07.471  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:14:07.472  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 897 ms
+2021-10-08 11:14:07.483 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:14:07.484 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:14:07.577 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:14:07.591 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:14:07.610 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:14:07.617 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:14:07.631  WARN 16632 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-08 11:14:07.638  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:14:07.718  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2021-10-08 11:14:07.818  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:14:07.833  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:14:07.842  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 1.345 seconds (JVM running for 591.568)
+2021-10-08 11:14:07.845  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:14:11.346  INFO 16632 --- [Thread-24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closing ...
+2021-10-08 11:14:11.347  INFO 16632 --- [Thread-24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2021-10-08 11:14:11.542  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:14:11.543  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:14:11.866  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:14:11.866  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:14:11.869  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:14:11.931  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:14:11.997  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:14:11.998  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:14:11.999  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:14:12.115  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:14:12.116  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 570 ms
+2021-10-08 11:14:12.123 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:14:12.123 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:14:12.193 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:14:12.202 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:14:12.212  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:14:12.248 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:14:12.255 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:14:12.270  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:14:12.303  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2021-10-08 11:14:12.385  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:14:12.408  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:14:12.415  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.919 seconds (JVM running for 596.14)
+2021-10-08 11:14:12.417  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:14:16.023  INFO 16632 --- [Thread-28] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closing ...
+2021-10-08 11:14:16.024  INFO 16632 --- [Thread-28] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closed
+2021-10-08 11:14:16.214  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:14:16.214  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:14:16.471  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:14:16.471  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:14:16.474  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:14:16.548  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:14:16.619  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:14:16.621  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:14:16.621  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:14:16.691  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:14:16.692  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 474 ms
+2021-10-08 11:14:16.705 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:14:16.706 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:14:16.791 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:14:16.803 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:14:16.813  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:14:16.822 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:14:16.829 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:14:16.842  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:14:16.878  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2021-10-08 11:14:16.979  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:14:17.001  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:14:17.008  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.85 seconds (JVM running for 600.734)
+2021-10-08 11:14:17.011  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:14:18.233  INFO 16632 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-08 11:14:18.234  INFO 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-08 11:14:18.235 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-08 11:14:18.236 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-08 11:14:18.237 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-08 11:14:18.238 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@43743c96
+2021-10-08 11:14:18.239 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4db3da88
+2021-10-08 11:14:18.239 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-08 11:14:18.239  INFO 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-10-08 11:14:18.240 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-08 11:14:18.240 DEBUG 16632 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.IndexController#index()
+2021-10-08 11:14:18.268 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-10-08 11:14:18.662 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 11:18:13.861  INFO 16632 --- [Thread-32] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} closing ...
+2021-10-08 11:18:13.861  INFO 16632 --- [Thread-32] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} closed
+2021-10-08 11:18:14.024  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:18:14.025  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:18:14.346  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:18:14.346  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:18:14.349  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:18:14.390  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:18:14.490  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:18:14.491  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:18:14.491  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:18:14.525  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:18:14.526  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 499 ms
+2021-10-08 11:18:14.532 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:18:14.532 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:18:14.586 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:18:14.595 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:18:14.601  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:18:14.610 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:18:14.615 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:18:14.626  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:18:14.659  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} inited
+2021-10-08 11:18:14.730  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:18:14.744  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:18:14.749  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.768 seconds (JVM running for 838.475)
+2021-10-08 11:18:14.751  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:18:18.032  INFO 16632 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-08 11:18:18.033  INFO 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-08 11:18:18.033 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-08 11:18:18.033 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-08 11:18:18.033 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-08 11:18:18.034 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@708a4c56
+2021-10-08 11:18:18.035 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7e4dac37
+2021-10-08 11:18:18.035 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-08 11:18:18.035  INFO 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-10-08 11:18:18.035 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-08 11:18:18.036 DEBUG 16632 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.IndexController#index()
+2021-10-08 11:18:18.038 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-10-08 11:18:18.060 DEBUG 16632 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 11:18:30.987 DEBUG 16632 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/xxx.js", parameters={}
+2021-10-08 11:18:30.988 DEBUG 16632 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 11:18:30.992 DEBUG 16632 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 11:20:10.836  INFO 16632 --- [Thread-36] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closing ...
+2021-10-08 11:20:10.840  INFO 16632 --- [Thread-36] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closed
+2021-10-08 11:20:11.161  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:20:11.161  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:20:11.560  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:20:11.560  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:20:11.563  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:20:11.617  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:20:11.731  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:20:11.732  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:20:11.733  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:20:11.771  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:20:11.771  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 606 ms
+2021-10-08 11:20:11.781 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:20:11.781 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:20:11.846 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:20:11.855 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:20:11.861  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:20:11.871 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:20:11.882 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:20:11.898  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:20:11.939  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} inited
+2021-10-08 11:20:12.026  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:20:12.048  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:20:12.053  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.954 seconds (JVM running for 955.779)
+2021-10-08 11:20:12.055  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:28:54.382  INFO 16632 --- [Thread-40] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} closing ...
+2021-10-08 11:28:54.383  INFO 16632 --- [Thread-40] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} closed
+2021-10-08 11:28:54.514  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:28:54.514  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:28:54.723  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:28:54.723  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:28:54.725  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:28:54.760  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:28:54.840  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:28:54.841  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:28:54.841  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:28:54.861  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:28:54.862  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 345 ms
+2021-10-08 11:28:54.868 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:28:54.868 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:28:54.911 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:28:54.916 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:28:54.920  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:28:54.925 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:28:54.931 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:28:54.940  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:28:54.972  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} inited
+2021-10-08 11:28:55.036  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:28:55.049  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:28:55.057  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.583 seconds (JVM running for 1478.783)
+2021-10-08 11:28:55.059  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:28:59.189  INFO 16632 --- [Thread-44] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} closing ...
+2021-10-08 11:28:59.190  INFO 16632 --- [Thread-44] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} closed
+2021-10-08 11:28:59.334  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:28:59.334  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:28:59.560  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:28:59.560  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:28:59.563  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:28:59.605  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:28:59.657  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:28:59.658  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:28:59.658  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:28:59.689  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:28:59.689  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 351 ms
+2021-10-08 11:28:59.694 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:28:59.694 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:28:59.737 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:28:59.744 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:28:59.748  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:28:59.754 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:28:59.759 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:28:59.769  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:28:59.808  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} inited
+2021-10-08 11:28:59.884  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:28:59.901  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:28:59.908  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.606 seconds (JVM running for 1483.634)
+2021-10-08 11:28:59.911  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:29:02.106  INFO 16632 --- [Thread-48] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} closing ...
+2021-10-08 11:29:02.108  INFO 16632 --- [Thread-48] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} closed
+2021-10-08 11:29:02.225  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:29:02.226  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:29:02.420  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:29:02.420  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:29:02.422  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:29:02.450  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:29:02.486  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:29:02.487  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:29:02.487  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:29:02.511  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:29:02.511  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 281 ms
+2021-10-08 11:29:02.515 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:29:02.515 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:29:02.555 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:29:02.560 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:29:02.565  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:29:02.571 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:29:02.576 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:29:02.587  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:29:02.612  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} inited
+2021-10-08 11:29:02.678  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:29:02.695  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:29:02.705  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.514 seconds (JVM running for 1486.432)
+2021-10-08 11:29:02.708  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:29:04.940  INFO 16632 --- [Thread-52] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} closing ...
+2021-10-08 11:29:04.941  INFO 16632 --- [Thread-52] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} closed
+2021-10-08 11:29:05.029  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:29:05.029  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:29:05.210  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:29:05.211  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:29:05.212  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:29:05.240  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:29:05.277  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:29:05.278  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:29:05.278  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:29:05.303  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:29:05.303  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 272 ms
+2021-10-08 11:29:05.308 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:29:05.309 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:29:05.346 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:29:05.351 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:29:05.355  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:29:05.360 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:29:05.365 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:29:05.373  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:29:05.398  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} inited
+2021-10-08 11:29:05.452  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:29:05.461  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:29:05.467  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.469 seconds (JVM running for 1489.193)
+2021-10-08 11:29:05.468  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:29:07.744  INFO 16632 --- [Thread-56] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} closing ...
+2021-10-08 11:29:07.744  INFO 16632 --- [Thread-56] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} closed
+2021-10-08 11:29:07.843  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:29:07.843  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:29:08.014  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:29:08.014  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:29:08.017  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:29:08.049  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:29:08.092  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:29:08.093  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:29:08.093  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:29:08.121  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:29:08.121  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 273 ms
+2021-10-08 11:29:08.128 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:29:08.128 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:29:08.172 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:29:08.181 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:29:08.185  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:29:08.192 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:29:08.199 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:29:08.214  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:29:08.252  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} inited
+2021-10-08 11:29:08.324  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:29:08.336  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:29:08.341  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.531 seconds (JVM running for 1492.067)
+2021-10-08 11:29:08.344  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:29:10.537  INFO 16632 --- [Thread-60] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} closing ...
+2021-10-08 11:29:10.538  INFO 16632 --- [Thread-60] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} closed
+2021-10-08 11:29:10.659  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:29:10.660  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:29:10.845  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:29:10.845  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:29:10.847  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:29:10.877  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:29:10.916  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:29:10.916  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:29:10.916  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:29:10.940  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:29:10.940  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 278 ms
+2021-10-08 11:29:10.945 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:29:10.945 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:29:10.988 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:29:10.992 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:29:10.998  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:29:11.003 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:29:11.007 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:29:11.017  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:29:11.044  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} inited
+2021-10-08 11:29:11.097  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:29:11.109  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:29:11.114  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.484 seconds (JVM running for 1494.839)
+2021-10-08 11:29:11.115  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:32:15.980  INFO 16632 --- [Thread-64] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} closing ...
+2021-10-08 11:32:15.981  INFO 16632 --- [Thread-64] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} closed
+2021-10-08 11:32:16.125  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:32:16.125  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:32:16.391  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:32:16.391  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:32:16.393  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:32:16.430  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:32:16.535  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:32:16.536  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:32:16.536  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:32:16.579  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:32:16.579  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 451 ms
+2021-10-08 11:32:16.589 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:32:16.589 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:32:16.691 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:32:16.701 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:32:16.706  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:32:16.719 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:32:16.728 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:32:16.743  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:32:16.781  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-14} inited
+2021-10-08 11:32:17.191  WARN 16632 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+2021-10-08 11:32:17.191  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-14} closing ...
+2021-10-08 11:32:17.191  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-14} closed
+2021-10-08 11:32:17.192  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-08 11:32:17.209  INFO 16632 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-08 11:32:17.355 ERROR 16632 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:771) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:763) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1318) [spring-boot-2.4.11.jar:2.4.11]
+	at com.xiexin.SmartfoodApplication.main(SmartfoodApplication.java:18) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.11.jar:2.4.11]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 25 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f049d319.CGLIB$sqlSessionFactory$1(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f049d319$$FastClassBySpringCGLIB$$79dba9f4.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f049d319.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 26 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	... 39 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119) ~[mybatis-3.5.6.jar:3.5.6]
+	... 41 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.6.jar:3.5.6]
+	... 45 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.5.6.jar:3.5.6]
+	... 47 common frames omitted
+
+2021-10-08 11:32:20.477  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:32:20.477  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:32:20.842  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:32:20.842  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:32:20.855  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:32:20.897  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:32:20.944  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:32:20.944  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:32:20.945  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:32:20.974  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:32:20.974  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 494 ms
+2021-10-08 11:32:20.981 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:32:20.981 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:32:21.032 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:32:21.041 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:32:21.047  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:32:21.059 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:32:21.066 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:32:21.080  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:32:21.116  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-15} inited
+2021-10-08 11:32:21.604  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:32:21.617  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:32:21.622  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 1.182 seconds (JVM running for 1685.348)
+2021-10-08 11:32:21.623  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:34:36.676  INFO 16632 --- [Thread-68] com.alibaba.druid.pool.DruidDataSource   : {dataSource-15} closing ...
+2021-10-08 11:34:36.677  INFO 16632 --- [Thread-68] com.alibaba.druid.pool.DruidDataSource   : {dataSource-15} closed
+2021-10-08 11:34:36.852  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:34:36.853  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:34:37.045  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:34:37.046  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:34:37.056  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:34:37.090  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:34:37.171  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:34:37.171  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:34:37.171  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:34:37.196  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:34:37.196  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 341 ms
+2021-10-08 11:34:37.201 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:34:37.202 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:34:37.248 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:34:37.254 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:34:37.258  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:34:37.264 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:34:37.271 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:34:37.283  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:34:37.307  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-16} inited
+2021-10-08 11:34:37.435  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:34:37.446  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:34:37.450  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.63 seconds (JVM running for 1821.176)
+2021-10-08 11:34:37.452  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:37:35.588  INFO 16632 --- [Thread-75] com.alibaba.druid.pool.DruidDataSource   : {dataSource-16} closing ...
+2021-10-08 11:37:35.588  INFO 16632 --- [Thread-75] com.alibaba.druid.pool.DruidDataSource   : {dataSource-16} closed
+2021-10-08 11:37:35.776  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:37:35.776  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:37:35.931  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:37:35.931  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:37:35.938  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:37:35.964  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:37:36.021  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:37:36.021  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:37:36.021  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:37:36.043  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:37:36.043  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 265 ms
+2021-10-08 11:37:36.049 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:37:36.049 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:37:36.079 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:37:36.083 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:37:36.086  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:37:36.090 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:37:36.095 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:37:36.103  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:37:36.124  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-17} inited
+2021-10-08 11:37:36.235  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 11:37:36.243  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 11:37:36.246  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.494 seconds (JVM running for 1999.973)
+2021-10-08 11:37:36.247  INFO 16632 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 11:37:53.393  INFO 16632 --- [Thread-79] com.alibaba.druid.pool.DruidDataSource   : {dataSource-17} closing ...
+2021-10-08 11:37:53.394  INFO 16632 --- [Thread-79] com.alibaba.druid.pool.DruidDataSource   : {dataSource-17} closed
+2021-10-08 11:37:58.463  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 11:37:58.463  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 11:37:58.681  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 11:37:58.681  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 11:37:58.682  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2021-10-08 11:37:58.725  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 11:37:58.772  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 11:37:58.773  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 11:37:58.773  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 11:37:58.802  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-08 11:37:58.803  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 338 ms
+2021-10-08 11:37:58.824 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 11:37:58.824 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 11:37:58.898 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 11:37:58.915 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2021-10-08 11:37:58.920  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 11:37:58.930 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 11:37:58.936 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 11:37:58.950  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 11:37:58.992  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-18} inited
+2021-10-08 11:37:59.033  WARN 16632 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+2021-10-08 11:37:59.034  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-18} closing ...
+2021-10-08 11:37:59.035  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-18} closed
+2021-10-08 11:37:59.038  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-08 11:37:59.050  INFO 16632 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-08 11:37:59.064 ERROR 16632 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:771) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:763) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1318) [spring-boot-2.4.11.jar:2.4.11]
+	at com.xiexin.SmartfoodApplication.main(SmartfoodApplication.java:18) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.11.jar:2.4.11]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 25 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f049d319.CGLIB$sqlSessionFactory$1(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f049d319$$FastClassBySpringCGLIB$$79dba9f4.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f049d319.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at sun.reflect.GeneratedMethodAccessor231.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 26 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119) ~[mybatis-3.5.6.jar:3.5.6]
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.6.jar:3.5.6]
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.5.6.jar:3.5.6]
+	... 46 common frames omitted
+
+2021-10-08 12:00:21.927  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 16632 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 12:00:21.927  INFO 16632 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 12:00:22.064  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 12:00:22.064  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 12:00:22.064  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2021-10-08 12:00:22.083  WARN 16632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xiexin]' package. Please check your configuration.
+2021-10-08 12:00:22.134  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 12:00:22.135  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 12:00:22.135  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 12:00:22.158  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-08 12:00:22.158  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 229 ms
+2021-10-08 12:00:22.161 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 12:00:22.161 DEBUG 16632 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 12:00:22.190 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 12:00:22.194 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2021-10-08 12:00:22.198  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 12:00:22.202 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 12:00:22.205 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 12:00:22.212  INFO 16632 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 12:00:22.234  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-19} inited
+2021-10-08 12:00:22.251  WARN 16632 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+2021-10-08 12:00:22.251  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-19} closing ...
+2021-10-08 12:00:22.251  INFO 16632 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-19} closed
+2021-10-08 12:00:22.252  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-08 12:00:22.258  INFO 16632 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-08 12:00:22.262 ERROR 16632 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:771) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:763) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.11.jar:2.4.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1318) [spring-boot-2.4.11.jar:2.4.11]
+	at com.xiexin.SmartfoodApplication.main(SmartfoodApplication.java:18) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.11.jar:2.4.11]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 25 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f049d319.CGLIB$sqlSessionFactory$1(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f049d319$$FastClassBySpringCGLIB$$79dba9f4.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f049d319.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.1.4.jar:2.1.4]
+	at sun.reflect.GeneratedMethodAccessor231.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 26 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes\mappers\AdminDAO.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611) ~[mybatis-spring-2.0.6.jar:2.0.6]
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119) ~[mybatis-3.5.6.jar:3.5.6]
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xiexin.bean.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.6.jar:3.5.6]
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.xiexin.bean.Admin
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.5.6.jar:3.5.6]
+	... 46 common frames omitted
+
+2021-10-08 15:06:20.272  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 4836 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 15:06:20.293  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 15:06:20.533  INFO 4836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-08 15:06:22.882  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 15:06:22.892  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 15:06:23.038  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 0 Redis repository interfaces.
+2021-10-08 15:06:25.107  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 15:06:25.123  INFO 4836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 15:06:25.124  INFO 4836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 15:06:25.303  INFO 4836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 15:06:25.304  INFO 4836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4769 ms
+2021-10-08 15:06:25.339 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 15:06:25.339 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 15:06:25.521  INFO 4836 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 15:06:26.050  INFO 4836 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-10-08 15:06:27.339 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 15:06:27.437 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2021-10-08 15:06:27.446  INFO 4836 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 15:06:27.492 DEBUG 4836 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 15:06:27.518 DEBUG 4836 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 15:06:28.497  INFO 4836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 15:06:28.547  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 15:06:28.564  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 9.503 seconds (JVM running for 13.33)
+2021-10-08 15:06:50.547  INFO 4836 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-10-08 15:06:50.551  INFO 4836 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-10-08 15:06:50.993  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 4836 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 15:06:50.994  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 15:06:51.486  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 15:06:51.486  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 15:06:51.510  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2021-10-08 15:06:51.763  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 15:06:51.765  INFO 4836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 15:06:51.766  INFO 4836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 15:06:51.820  INFO 4836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 15:06:51.820  INFO 4836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 821 ms
+2021-10-08 15:06:51.838 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 15:06:51.840 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 15:06:51.864  INFO 4836 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 15:06:51.905  INFO 4836 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2021-10-08 15:06:52.154 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 15:06:52.169 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2021-10-08 15:06:52.176  INFO 4836 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 15:06:52.189 DEBUG 4836 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 15:06:52.196 DEBUG 4836 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 15:06:52.296  INFO 4836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 15:06:52.313  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 15:06:52.321  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 1.382 seconds (JVM running for 37.088)
+2021-10-08 15:06:52.324  INFO 4836 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 15:06:59.230  INFO 4836 --- [Thread-28] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closing ...
+2021-10-08 15:06:59.232  INFO 4836 --- [Thread-28] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-10-08 15:06:59.534  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 4836 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 15:06:59.534  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 15:07:00.005  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 15:07:00.005  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 15:07:00.037  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+2021-10-08 15:07:00.213  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 15:07:00.215  INFO 4836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 15:07:00.215  INFO 4836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 15:07:00.269  INFO 4836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 15:07:00.270  INFO 4836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 727 ms
+2021-10-08 15:07:00.284 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 15:07:00.284 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 15:07:00.310  INFO 4836 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 15:07:00.359  INFO 4836 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2021-10-08 15:07:00.600 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 15:07:00.610 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2021-10-08 15:07:00.616  INFO 4836 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 15:07:00.628 DEBUG 4836 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 15:07:00.636 DEBUG 4836 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 15:07:00.709  INFO 4836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 15:07:00.726  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 15:07:00.736  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 1.273 seconds (JVM running for 45.502)
+2021-10-08 15:07:00.739  INFO 4836 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 15:07:03.898  INFO 4836 --- [Thread-32] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closing ...
+2021-10-08 15:07:04.239  INFO 4836 --- [Thread-32] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2021-10-08 15:07:04.714  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 4836 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 15:07:04.716  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 15:07:05.224  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 15:07:05.224  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 15:07:05.245  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2021-10-08 15:07:05.402  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 15:07:05.409  INFO 4836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 15:07:05.409  INFO 4836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 15:07:05.483  INFO 4836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 15:07:05.483  INFO 4836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 758 ms
+2021-10-08 15:07:05.496 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 15:07:05.497 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 15:07:05.524  INFO 4836 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 15:07:05.573  INFO 4836 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2021-10-08 15:07:05.780 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 15:07:05.793 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2021-10-08 15:07:05.803  INFO 4836 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 15:07:05.814 DEBUG 4836 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 15:07:05.821 DEBUG 4836 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 15:07:05.895  INFO 4836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 15:07:05.922  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 15:07:05.948  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 1.33 seconds (JVM running for 50.714)
+2021-10-08 15:07:05.954  INFO 4836 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 15:08:16.517  INFO 4836 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-08 15:08:16.519  INFO 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-08 15:08:16.519 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-08 15:08:16.520 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-08 15:08:16.520 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-08 15:08:16.522 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6620b331
+2021-10-08 15:08:16.523 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4522c244
+2021-10-08 15:08:16.524 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-08 15:08:16.524  INFO 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-10-08 15:08:16.549 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/selectAll/selectAll", parameters={}
+2021-10-08 15:08:16.643 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 15:08:16.658 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-10-08 15:08:16.660 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-10-08 15:08:16.700 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-10-08 15:08:16.707 DEBUG 4836 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-10-08 15:08:16.937 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-10-08 15:08:16.960 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-10-08 15:08:18.359 DEBUG 4836 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2021-10-08 15:08:18.362 DEBUG 4836 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 15:08:18.368 DEBUG 4836 --- [http-nio-9090-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-10-08 15:08:18.369 DEBUG 4836 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-10-08 15:08:18.371 DEBUG 4836 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-10-08 15:08:18.372 DEBUG 4836 --- [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-10-08 15:08:18.498 DEBUG 4836 --- [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-08 15:08:18.501 DEBUG 4836 --- [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Oct 08 15:08:18 CST 2021, status=404, error=Not Found, message=No message available,  (truncated)...]
+2021-10-08 15:08:18.736 DEBUG 4836 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-10-08 15:09:09.143 DEBUG 4836 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/student/selectAll", parameters={}
+2021-10-08 15:09:09.143 DEBUG 4836 --- [http-nio-9090-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.StudentController#selectAll()
+2021-10-08 15:09:10.094 DEBUG 4836 --- [http-nio-9090-exec-4] c.xiexin.dao.StudentDAO.selectByExample  : ==>  Preparing: select student_id, student_name, student_sex, student_card_id, student_phone, student_address, student_come_date from student
+2021-10-08 15:09:10.233 DEBUG 4836 --- [http-nio-9090-exec-4] c.xiexin.dao.StudentDAO.selectByExample  : ==> Parameters: 
+2021-10-08 15:09:10.305 DEBUG 4836 --- [http-nio-9090-exec-4] c.xiexin.dao.StudentDAO.selectByExample  : <==      Total: 1
+2021-10-08 15:09:10.351 DEBUG 4836 --- [http-nio-9090-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-08 15:09:10.352 DEBUG 4836 --- [http-nio-9090-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=20000, msg=操作成功, data=[com.xiexin.bean.Student@3d526e4e])]
+2021-10-08 15:09:10.363 DEBUG 4836 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 15:10:25.244 DEBUG 4836 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/page/studentList", parameters={}
+2021-10-08 15:10:25.246 DEBUG 4836 --- [http-nio-9090-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#studentList()
+2021-10-08 15:10:25.250 DEBUG 4836 --- [http-nio-9090-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-10-08 15:10:26.068 DEBUG 4836 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 15:10:26.118 DEBUG 4836 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.css", parameters={}
+2021-10-08 15:10:26.122 DEBUG 4836 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 15:10:26.140 DEBUG 4836 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/vue.js", parameters={}
+2021-10-08 15:10:26.139 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/axios.min.js", parameters={}
+2021-10-08 15:10:26.142 DEBUG 4836 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 15:10:26.143 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 15:10:26.143 DEBUG 4836 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.js", parameters={}
+2021-10-08 15:10:26.147 DEBUG 4836 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 15:10:26.160 DEBUG 4836 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 15:10:26.183 DEBUG 4836 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 15:10:26.194 DEBUG 4836 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 15:10:26.209 DEBUG 4836 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 15:10:27.178 DEBUG 4836 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/student/selectAll", parameters={}
+2021-10-08 15:10:27.180 DEBUG 4836 --- [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.StudentController#selectAll()
+2021-10-08 15:10:27.229 DEBUG 4836 --- [http-nio-9090-exec-2] c.xiexin.dao.StudentDAO.selectByExample  : ==>  Preparing: select student_id, student_name, student_sex, student_card_id, student_phone, student_address, student_come_date from student
+2021-10-08 15:10:27.230 DEBUG 4836 --- [http-nio-9090-exec-2] c.xiexin.dao.StudentDAO.selectByExample  : ==> Parameters: 
+2021-10-08 15:10:27.235 DEBUG 4836 --- [http-nio-9090-exec-2] c.xiexin.dao.StudentDAO.selectByExample  : <==      Total: 1
+2021-10-08 15:10:27.237 DEBUG 4836 --- [http-nio-9090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-08 15:10:27.238 DEBUG 4836 --- [http-nio-9090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=20000, msg=操作成功, data=[com.xiexin.bean.Student@3128a84])]
+2021-10-08 15:10:27.241 DEBUG 4836 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 16:02:01.836  INFO 4836 --- [Thread-36] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closing ...
+2021-10-08 16:02:01.838  INFO 4836 --- [Thread-36] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closed
+2021-10-08 16:02:02.236  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 4836 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 16:02:02.237  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 16:02:02.617  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 16:02:02.617  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 16:02:02.657  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 0 Redis repository interfaces.
+2021-10-08 16:02:03.035  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 16:02:03.041  INFO 4836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 16:02:03.042  INFO 4836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 16:02:03.176  INFO 4836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 16:02:03.177  INFO 4836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 934 ms
+2021-10-08 16:02:03.202 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 16:02:03.215 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 16:02:03.272  INFO 4836 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 16:02:03.384  INFO 4836 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2021-10-08 16:02:04.085 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 16:02:04.106 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2021-10-08 16:02:04.118  INFO 4836 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 16:02:04.144 DEBUG 4836 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 16:02:04.151 DEBUG 4836 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 16:02:04.331  INFO 4836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 16:02:04.386  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 16:02:04.402  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 2.266 seconds (JVM running for 3349.179)
+2021-10-08 16:02:04.412  INFO 4836 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 16:17:42.819  INFO 4836 --- [Thread-40] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} closing ...
+2021-10-08 16:17:42.825  INFO 4836 --- [Thread-40] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} closed
+2021-10-08 16:17:43.260  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 4836 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 16:17:43.261  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 16:17:44.726  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 16:17:44.726  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 16:17:44.748  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2021-10-08 16:17:44.956  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 16:17:44.957  INFO 4836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 16:17:44.957  INFO 4836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 16:17:45.055  INFO 4836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 16:17:45.056  INFO 4836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1791 ms
+2021-10-08 16:17:45.085 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 16:17:45.086 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 16:17:45.121  INFO 4836 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 16:17:45.207  INFO 4836 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} inited
+2021-10-08 16:17:45.665 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 16:17:45.675 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2021-10-08 16:17:45.681  INFO 4836 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 16:17:45.692 DEBUG 4836 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 16:17:45.701 DEBUG 4836 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 16:17:45.777  INFO 4836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 16:17:45.793  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 16:17:45.801  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 2.614 seconds (JVM running for 4290.579)
+2021-10-08 16:17:45.804  INFO 4836 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 16:17:48.900  INFO 4836 --- [Thread-44] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closing ...
+2021-10-08 16:17:48.905  INFO 4836 --- [Thread-44] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closed
+2021-10-08 16:17:49.385  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 4836 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 16:17:49.389  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 16:17:49.870  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 16:17:49.870  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 16:17:49.896  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2021-10-08 16:17:50.036  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 16:17:50.037  INFO 4836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 16:17:50.038  INFO 4836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 16:17:50.122  INFO 4836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 16:17:50.122  INFO 4836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 724 ms
+2021-10-08 16:17:50.136 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 16:17:50.136 DEBUG 4836 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 16:17:50.160  INFO 4836 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 16:17:50.228  INFO 4836 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} inited
+2021-10-08 16:17:50.414 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 16:17:50.424 DEBUG 4836 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2021-10-08 16:17:50.430  INFO 4836 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 16:17:50.442 DEBUG 4836 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 16:17:50.450 DEBUG 4836 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 16:17:50.524  INFO 4836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 16:17:50.541  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 16:17:50.549  INFO 4836 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 1.237 seconds (JVM running for 4295.326)
+2021-10-08 16:17:50.551  INFO 4836 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-08 17:07:21.810  INFO 11344 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_121 on 治愈少年的电脑 with PID 11344 (E:\ideaIU-2018.3.6.win\springboot\oneboot\target\classes started by Lenovo in E:\ideaIU-2018.3.6.win\springboot\oneboot)
+2021-10-08 17:07:21.826  INFO 11344 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-08 17:07:21.875  INFO 11344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-08 17:07:23.277  INFO 11344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-08 17:07:23.280  INFO 11344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-08 17:07:23.311  INFO 11344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2021-10-08 17:07:23.818  INFO 11344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-08 17:07:23.825  INFO 11344 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-08 17:07:23.825  INFO 11344 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-08 17:07:23.913  INFO 11344 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-08 17:07:23.913  INFO 11344 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2037 ms
+2021-10-08 17:07:23.930 DEBUG 11344 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-08 17:07:23.931 DEBUG 11344 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-08 17:07:23.988  INFO 11344 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-08 17:07:24.101  INFO 11344 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-10-08 17:07:24.723 DEBUG 11344 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-08 17:07:24.775 DEBUG 11344 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2021-10-08 17:07:24.779  INFO 11344 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-08 17:07:24.802 DEBUG 11344 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-08 17:07:24.809 DEBUG 11344 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-08 17:07:25.181  INFO 11344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-08 17:07:25.211  INFO 11344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-08 17:07:25.222  INFO 11344 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 3.979 seconds (JVM running for 5.598)
+2021-10-08 17:07:31.831  INFO 11344 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-08 17:07:31.831  INFO 11344 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-08 17:07:31.831 DEBUG 11344 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-08 17:07:31.831 DEBUG 11344 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-08 17:07:31.831 DEBUG 11344 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-08 17:07:31.832 DEBUG 11344 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4f773ffd
+2021-10-08 17:07:31.833 DEBUG 11344 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@23fed142
+2021-10-08 17:07:31.833 DEBUG 11344 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-08 17:07:31.833  INFO 11344 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-10-08 17:07:31.842 DEBUG 11344 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/page/studentList", parameters={}
+2021-10-08 17:07:31.847 DEBUG 11344 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#studentList()
+2021-10-08 17:07:31.869 DEBUG 11344 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-10-08 17:07:32.018 DEBUG 11344 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 17:07:32.042 DEBUG 11344 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.css", parameters={}
+2021-10-08 17:07:32.046 DEBUG 11344 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/vue.js", parameters={}
+2021-10-08 17:07:32.052 DEBUG 11344 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/axios.min.js", parameters={}
+2021-10-08 17:07:32.052 DEBUG 11344 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.js", parameters={}
+2021-10-08 17:07:32.055 DEBUG 11344 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 17:07:32.055 DEBUG 11344 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 17:07:32.055 DEBUG 11344 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 17:07:32.055 DEBUG 11344 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-08 17:07:32.092 DEBUG 11344 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 17:07:32.183 DEBUG 11344 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 17:07:32.203 DEBUG 11344 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 17:07:32.215 DEBUG 11344 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-08 17:07:32.361 DEBUG 11344 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/student/selectAll", parameters={}
+2021-10-08 17:07:32.362 DEBUG 11344 --- [http-nio-9090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.StudentController#selectAll()
+2021-10-08 17:07:32.516 DEBUG 11344 --- [http-nio-9090-exec-6] c.xiexin.dao.StudentDAO.selectByExample  : ==>  Preparing: select student_id, student_name, student_sex, student_card_id, student_phone, student_address, student_come_date from student
+2021-10-08 17:07:32.532 DEBUG 11344 --- [http-nio-9090-exec-6] c.xiexin.dao.StudentDAO.selectByExample  : ==> Parameters: 
+2021-10-08 17:07:32.551 DEBUG 11344 --- [http-nio-9090-exec-6] c.xiexin.dao.StudentDAO.selectByExample  : <==      Total: 1
+2021-10-08 17:07:32.586 DEBUG 11344 --- [http-nio-9090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-08 17:07:32.587 DEBUG 11344 --- [http-nio-9090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=20000, msg=操作成功, data=[com.xiexin.bean.Student@74b091be])]
+2021-10-08 17:07:32.602 DEBUG 11344 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
